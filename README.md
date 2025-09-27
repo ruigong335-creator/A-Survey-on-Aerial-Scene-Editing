@@ -99,9 +99,9 @@ A summary of datasets discussed in our survey (corresponding to Table 1 in the m
 | **NeRF-Synthetic** | Foundational | Synthetic objects with 360° views for validating NeRF models. | Lack of Realism & Scale. | [[Project]](https://www.matthewtancik.com/nerf) |
 | **LLFF** | Foundational | Real-world, forward-facing scenes for view synthesis benchmarks. | Limited Viewpoint Coverage; small scale. | [[Project]](https://bmild.github.io/llff/) |
 | **ScanNet** | Indoor | Large-scale RGB-D dataset of indoor scenes with rich annotations. | Indoor & Mesh-Based; goals differ from neural rendering. | [[Project]](http://www.scan-net.org/) |
-| **UrbanScene3D** | Large-Scale Static | High-resolution UAV imagery of San Francisco for urban NeRFs. | Static & Unannotated; lacks labels for semantic edits. | [[Homepage]](https://vlar-group.github.io/UrbanScene3D/) |
+| **UrbanScene3D** | Large-Scale Static | High-resolution UAV imagery of San Francisco for urban NeRFs. | Static & Unannotated; lacks labels for semantic edits. | [[GitHub]](https://github.com/yilinliu77/UrbanScene3D) |
 | **Tanks and Temples** | Large-Scale Static | High-quality video for benchmarking MVS and photogrammetry. | No Ground-Truth Edits; for reconstruction, not modification. | [[Homepage]](https://www.tanksandtemples.org/) |
-| **D-NeRF Dataset** | Dynamic Scenes | Synthetic video of objects with non-rigid motion. | Synthetic & Object-Scale; not representative of urban dynamics. | [[Project]](https://www.albertpumarola.com/d-nerf) |
+| **D-NeRF Dataset** | Dynamic Scenes | Synthetic video of objects with non-rigid motion. | Synthetic & Object-Scale; not representative of urban dynamics. | [[GitHub]](https://github.com/albertpumarola/D-NeRF) |
 | **Waymo Open / KITTI-360**| Autonomous Driving | Massive LiDAR/camera datasets with rich semantic labels. | Ground-Level Perspective; geometry and appearance differ significantly. | [[Waymo]](https://waymo.com/open/) [[KITTI-360]](http://www.cvlibs.net/datasets/kitti-360/) |
 
 ---
