@@ -24,23 +24,23 @@ As detailed in Section 2.1 of our survey, we deconstruct the NeRF editing proces
 
 #### **1.1. Feature Extraction and Mapping**
 *This stage translates abstract user intent into machine-interpretable formats using pre-trained models.*
-- **CLIP-NeRF** (CVPR 2022) [[Paper]](https://arxiv.org/abs/2112.09081) [[Project]](https://cassie.style/clipnerf/) [[Code]](https://github.com/cassie-wang/CLIP-NeRF)
-- **Text2NeRF** (TVCG 2024) [[Paper]](https://arxiv.org/abs/2303.12356) [[Code]](https://github.com/Jing-Li-2000/Text2NeRF)
-- **Customize your NeRF** (arXiv 2023) [[Paper]](https://arxiv.org/abs/2307.03839)
+- **CLIP-NeRF** (CVPR 2022) [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_CLIP-NeRF_Text-and-Image_Driven_Manipulation_of_Neural_Radiance_Fields_CVPR_2022_paper.pdf) [[Code]](https://github.com/cassiePython/CLIPNeRF)
+- **Text2NeRF** (TVCG 2024) [[Paper]](https://ieeexplore.ieee.org/abstract/document/10422989) [[Code]](https://github.com/eckertzhang/Text2NeRF)
+- **Customize your NeRF** (CVPR 2024) [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/html/He_Customize_your_NeRF_Adaptive_Source_Driven_3D_Scene_Editing_via_CVPR_2024_paper.html) [[Code]](https://github.com/hrz2000/CustomNeRF)
 
 #### **1.2. Conditional NeRF Architecture Design**
 *This stage involves designing NeRF architectures that integrate semantic conditions to modulate scene geometry and appearance.*
-- **CLIP-NeRF** (CVPR 2022) [[Paper]](https://arxiv.org/abs/2112.09081) [[Project]](https://cassie.style/clipnerf/) [[Code]](https://github.com/cassie-wang/CLIP-NeRF)
-- **Text2NeRF** (TVCG 2024) [[Paper]](https://arxiv.org/abs/2303.12356) [[Code]](https://github.com/Jing-Li-2000/Text2NeRF)
-- **Customize your NeRF** (arXiv 2023) [[Paper]](https://arxiv.org/abs/2307.03839)
-- **MINE** (CVPR 2022) [[Paper]](https://arxiv.org/abs/2205.13459) [[Project]](https://lioryariv.github.io/mine/) [[Code]](https://github.com/lioryariv/mine)
+- **CLIP-NeRF** (CVPR 2022) [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_CLIP-NeRF_Text-and-Image_Driven_Manipulation_of_Neural_Radiance_Fields_CVPR_2022_paper.pdf) [[Code]](https://github.com/cassiePython/CLIPNeRF)
+- **Text2NeRF** (TVCG 2024) [[Paper]](https://ieeexplore.ieee.org/abstract/document/10422989) [[Code]](https://github.com/eckertzhang/Text2NeRF)
+- **Customize your NeRF** (CVPR 2024) [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/html/He_Customize_your_NeRF_Adaptive_Source_Driven_3D_Scene_Editing_via_CVPR_2024_paper.html) [[Code]](https://github.com/hrz2000/CustomNeRF)
+- **MINE** (ICCV 2021) [[Paper]](https://openaccess.thecvf.com/content/ICCV2021/html/Li_MINE_Towards_Continuous_Depth_MPI_With_NeRF_for_Novel_View_ICCV_2021_paper.html) [[Code]](https://github.com/vincentfung13/MINE)
 
 #### **1.3. Targeted Optimization and Scene Update**
 *This final stage adjusts the network’s weights to realize the desired edit, encompassing both forward and inverse optimization strategies.*
-- **CLIP-NeRF** (Progressive Refinement) [[Paper]](https://arxiv.org/abs/2112.09081)
-- **Text2NeRF** (Progressive Inpainting) [[Paper]](https://arxiv.org/abs/2303.12356)
-- **Customize your NeRF** (Local-Global Iteration & Inverse Optimization) [[Paper]](https://arxiv.org/abs/2307.03839)
-- **SinNeRF** (ECCV 2022) [[Paper]](https://arxiv.org/abs/2204.09312) [[Project]](https://dvl-tum.github.io/sin-nerf/) [[Code]](https://github.com/dvl-tum/sin-nerf)
+- **CLIP-NeRF** (Progressive Refinement) [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_CLIP-NeRF_Text-and-Image_Driven_Manipulation_of_Neural_Radiance_Fields_CVPR_2022_paper.pdf)
+- **Text2NeRF** (Progressive Inpainting) [[Paper]](https://ieeexplore.ieee.org/abstract/document/10422989)
+- **Customize your NeRF** (Local-Global Iteration & Inverse Optimization) [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/html/He_Customize_your_NeRF_Adaptive_Source_Driven_3D_Scene_Editing_via_CVPR_2024_paper.html)
+- **SinNeRF** (ECCV 2022) [[Paper]](https://link.springer.com/chapter/10.1007/978-3-031-20047-2_42) [[Code]](https://github.com/VITA-Group/SinNeRF)
 
 ---
 
@@ -50,44 +50,43 @@ As introduced in Section 2.2 of our survey, we synthesize the 3DGS editing proce
 
 #### **2.1. Initial Gaussian Layout Generation**
 *This stage interprets user commands to generate an initial plan for the edit, defining its location, shape, and appearance.*
-- **GaussianEditor** (CVPR 2024) [[Paper]](https://arxiv.org/abs/2311.12775) [[Project]](https://gauss-group.github.io/GaussianEditor/) [[Code]](https://github.com/Gauss-Group/GaussianEditor)
-- **CG3D** (arXiv 2023) [[Paper]](https://arxiv.org/abs/2311.17907)
-- **Align Your Gaussians** (CVPR 2024) [[Paper]](https://arxiv.org/abs/2312.02924) [[Project]](https://align-your-gaussians.github.io/)
-- **GALA3D** (arXiv 2024) [[Paper]](https://arxiv.org/abs/2403.01873)
-- **LangSplat** (CVPR 2024) [[Paper]](https://arxiv.org/abs/2403.13998) [[Project]](https://langsplat.github.io/) [[Code]](https://github.com/qi-feng/LangSplat)
-- **GIR** (arXiv 2023) [[Paper]](https://arxiv.org/abs/2312.05133)
+- **GaussianEditor** (CVPR 2024) [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Chen_GaussianEditor_Swift_and_Controllable_3D_Editing_with_Gaussian_Splatting_CVPR_2024_paper.html) [[Code]](https://github.com/buaacyw/GaussianEditor)
+- **CG3D** (arXiv 2023) [[Paper]](https://arxiv.org/abs/2311.17907) [[Code]](https://github.com/asvilesov/CG3D)
+- **Align Your Gaussians** (CVPR 2024) [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Ling_Align_Your_Gaussians_Text-to-4D_with_Dynamic_3D_Gaussians_and_Composed_CVPR_2024_paper.html)
+- **GALA3D** (arXiv 2024) [[Paper]](https://arxiv.org/abs/2412.20473)
+- **LangSplat** (CVPR 2024) [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Qin_LangSplat_3D_Language_Gaussian_Splatting_CVPR_2024_paper.html) [[Code]](https://github.com/minghanqin/LangSplat)
+- **GIR** (IEEE VR 2024) [[Paper]](https://ieeexplore.ieee.org/abstract/document/11030850) [[Code]](https://github.com/guduxiaolang/GIR)
 
 #### **2.2. 3D Gaussian Representation Construction**
 *This stage explicitly defines new primitives by manipulating existing Gaussians (e.g., cloning, splitting).*
-- **GaussianEditor** (CVPR 2024) [[Paper]](https://arxiv.org/abs/2311.12775)
-- **LangSplat** (CVPR 2024) [[Paper]](https://arxiv.org/abs/2403.13998)
-- **GaussianDreamer** (CVPR 2024) [[Paper]](https://arxiv.org/abs/2310.08529) [[Project]](https://taolei.sites.northeastern.edu/projects/gaussiandreamer/) [[Code]](https://github.com/hustvl/GaussianDreamer)
-- **SC-GS** (arXiv 2024) [[Paper]](https://arxiv.org/abs/2403.01358) [[Project]](https://y-u-j-i-n.github.io/sc-gs/) [[Code]](https://github.com/y-u-j-i-n/SC-GS)
-- **GIR** (arXiv 2023) [[Paper]](https://arxiv.org/abs/2312.05133)
+- **GaussianEditor** (CVPR 2024) [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Chen_GaussianEditor_Swift_and_Controllable_3D_Editing_with_Gaussian_Splatting_CVPR_2024_paper.html) [[Code]](https://github.com/buaacyw/GaussianEditor)
+- **LangSplat** (CVPR 2024) [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Qin_LangSplat_3D_Language_Gaussian_Splatting_CVPR_2024_paper.html) [[Code]](https://github.com/minghanqin/LangSplat)
+- **GaussianDreamer** (CVPR 2024) [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Yi_GaussianDreamer_Fast_Generation_from_Text_to_3D_Gaussians_by_Bridging_CVPR_2024_paper.html) [[Code]](https://github.com/hustvl/GaussianDreamer)
+- **SC-GS** (CVPR 2024) [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Huang_SC-GS_Sparse-Controlled_Gaussian_Splatting_for_Editable_Dynamic_Scenes_CVPR_2024_paper.html) [[Code]](https://github.com/CVMI-Lab/SC-GS)
+- **GIR** (IEEE VR 2024) [[Paper]](https://ieeexplore.ieee.org/abstract/document/11030850) [[Code]](https://github.com/guduxiaolang/GIR)
 
 #### **2.3. Geometric Optimization**
 *This stage refines the core parameters of primitives (position, rotation, scale) to ensure structural coherence.*
-- **GALA3D** (arXiv 2024) [[Paper]](https://arxiv.org/abs/2403.01873)
-- **GSGEN** (ICLR 2024) [[Paper]](https://arxiv.org/abs/2311.15224) [[Project]](https://gsgen-3d.github.io/) [[Code]](https://github.com/gsgen-3d/gsgen)
-- **GIR** (arXiv 2023) [[Paper]](https://arxiv.org/abs/2312.05133)
-- **LangSplat** (CVPR 2024) [[Paper]](https://arxiv.org/abs/2403.13998)
+- **GALA3D** (arXiv 2024) [[Paper]](https://arxiv.org/abs/2412.20473)
+- **GSGEN** (CVPR 2024) [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Chen_Text-to-3D_using_Gaussian_Splatting_CVPR_2024_paper.html) [[Code]](https://github.com/gsgen3d/gsgen)
+- **GIR** (IEEE VR 2024) [[Paper]](https://ieeexplore.ieee.org/abstract/document/11030850) [[Code]](https://github.com/guduxiaolang/GIR)
+- **LangSplat** (CVPR 2024) [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Qin_LangSplat_3D_Language_Gaussian_Splatting_CVPR_2024_paper.html) [[Code]](https://github.com/minghanqin/LangSplat)
 
 #### **2.4. Surface Detail Enhancement**
 *This stage focuses on appearance, encoding attributes like color, materials, and illumination for photorealism.*
-- **GSGEN** (ICLR 2024) [[Paper]](https://arxiv.org/abs/2311.15224)
-- **GaussianEditor** (CVPR 2024) [[Paper]](https://arxiv.org/abs/2311.12775)
-- **GAvatar** (CVPR 2024) [[Paper]](https://arxiv.org/abs/2312.06732) [[Project]](https://ye-y.github.io/GAvatar/) [[Code]](https://github.com/ye-y/GAvatar)
-- **LangSplat** (CVPR 2024) [[Paper]](https://arxiv.org/abs/2403.13998)
-- **Text-to-3D Generation: A Survey** (includes many models like DreamFusion, Magic3D etc.) [[Paper]](https://arxiv.org/abs/2309.11416)
-- **GALA3D** (arXiv 2024) [[Paper]](https://arxiv.org/abs/2403.01873)
-- **GIR** (arXiv 2023) [[Paper]](https://arxiv.org/abs/2312.05133)
+- **GSGEN** (CVPR 2024) [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Chen_Text-to-3D_using_Gaussian_Splatting_CVPR_2024_paper.html) [[Code]](https://github.com/gsgen3d/gsgen)
+- **GaussianEditor** (CVPR 2024) [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Chen_GaussianEditor_Swift_and_Controllable_3D_Editing_with_Gaussian_Splatting_CVPR_2024_paper.html) [[Code]](https://github.com/buaacyw/GaussianEditor)
+- **GAvatar** (CVPR 2024) [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Yuan_GAvatar_Animatable_3D_Gaussian_Avatars_with_Implicit_Mesh_Learning_CVPR_2024_paper.html)
+- **LangSplat** (CVPR 2024) [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Qin_LangSplat_3D_Language_Gaussian_Splatting_CVPR_2024_paper.html) [[Code]](https://github.com/minghanqin/LangSplat)
+- **GALA3D** (arXiv 2024) [[Paper]](https://arxiv.org/abs/2412.20473)
+- **GIR** (IEEE VR 2024) [[Paper]](https://ieeexplore.ieee.org/abstract/document/11030850) [[Code]](https://github.com/guduxiaolang/GIR)
 
 #### **2.5. Temporal Change and Dynamic Scene Support**
 *This stage extends the model to handle time-varying events and motion.*
-- **Efficient4D** (arXiv 2024) [[Paper]](https://arxiv.org/abs/2401.08742)
-- **SC-GS** (arXiv 2024) [[Paper]](https://arxiv.org/abs/2403.01358)
-- **Align Your Gaussians** (CVPR 2024) [[Paper]](https://arxiv.org/abs/2312.02924)
-- **Human Gaussian Splatting** (arXiv 2023) [[Paper]](https://arxiv.org/abs/2311.10097) [[Project]](https://shunsukesaito.github.io/hugs/)
+- **Efficient4D** (arXiv 2024) [[Paper]](https://arxiv.org/abs/2401.08742) [[Code]](https://github.com/fudan-zvg/Efficient4D)
+- **SC-GS** (CVPR 2024) [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Huang_SC-GS_Sparse-Controlled_Gaussian_Splatting_for_Editable_Dynamic_Scenes_CVPR_2024_paper.html) [[Code]](https://github.com/CVMI-Lab/SC-GS)
+- **Align Your Gaussians** (CVPR 2024) [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Ling_Align_Your_Gaussians_Text-to-4D_with_Dynamic_3D_Gaussians_and_Composed_CVPR_2024_paper.html)
+- **Human Gaussian Splats** (CVPR 2024) [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Kocabas_HUGS_Human_Gaussian_Splats_CVPR_2024_paper.html) [[Code]](https://github.com/apple/ml-hugs)
 
 ---
 
