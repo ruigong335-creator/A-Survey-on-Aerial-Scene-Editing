@@ -1,7 +1,6 @@
 # A Survey on NeRF and 3DGS for Aerial Scene Editing
 
 [![Journal](https://img.shields.io/badge/Journal-The%20Visual%20Computer-blue)](https://www.springer.com/journal/371) 
-[![arXiv](https://img.shields.io/badge/arXiv-24XX.XXXXX-b31b1b.svg)](https://arxiv.org/abs/your_paper_id) <!-- 提交arXiv后替换 'your_paper_id' -->
 
 > This repository is the official resource collection for our survey paper:
 > **"Implicit vs. Explicit: A Comparative Survey on NeRF and 3DGS for Large-Scale Aerial Scene Editing"**
