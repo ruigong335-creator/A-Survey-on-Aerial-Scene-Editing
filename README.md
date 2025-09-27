@@ -8,7 +8,7 @@
 >
 > **Authors:** Rui Gong, Jiguang Zhang, Yujia Pang, Yixuan Wang, Xiaopeng Zhang, Weiliang Meng, and Peng Zhou.
 >
-> **Abstract:** *The proliferation of Unmanned Aerial Vehicles (UAVs) has significantly advanced the acquisition of large-scale 3D scene data, paving the way for applications like Digital Twins. Neural Radiance Fields (NeRF) and 3D Gaussian Splatting (3DGS) have enabled exceptional realism, yet editing these vast neural representations remains challenging. This survey provides a systematic analysis of large-scale scene editing from UAV aerial imagery, focusing on the fundamental architectural dichotomy between implicit (NeRF) and explicit (DGS) representations. We introduce novel taxonomies, critically evaluate their core mechanisms, and reveal why explicit representations are converging as the more viable path for interactive, city-scale digital scene manipulation. Our analysis identifies key challenges and suggests future research directions.*
+> **Abstract:** *The proliferation of Unmanned Aerial Vehicles (UAVs) has significantly advanced the acquisition of large-scale 3D scene data, paving the way for applications like Digital Twins. Neural Radiance Fields (NeRF) and 3D Gaussian Splatting (3DGS) have enabled exceptional realism, yet editing these vast neural representations remains challenging. This survey provides a systematic analysis of large-scale scene editing from UAV aerial imagery, focusing on the fundamental architectural dichotomy between implicit (NeRF) and explicit (3DGS) representations. We introduce novel taxonomies, critically evaluate their core mechanisms, and reveal why explicit representations are converging as the more viable path for interactive, city-scale digital scene manipulation. Our analysis identifies key challenges and suggests future research directions.*
 > 
 > **To readers of our manuscript:** In this repository, we provide links to all the papers and datasets discussed. We kindly remind you that this resource is directly related to our manuscript currently under submission to *The Visual Computer*. **If you find our work and this collection useful, we encourage you to cite our survey.**
 
@@ -40,7 +40,7 @@ As detailed in Section 2.1 of our survey, we deconstruct the NeRF editing proces
 - **CLIP-NeRF** (Progressive Refinement) [[Paper]](https://arxiv.org/abs/2112.09081)
 - **Text2NeRF** (Progressive Inpainting) [[Paper]](https://arxiv.org/abs/2303.12356)
 - **Customize your NeRF** (Local-Global Iteration & Inverse Optimization) [[Paper]](https://arxiv.org/abs/2307.03839)
-- **SinNeRF** (Single-Image Editing) [[Paper]](https://arxiv.org/abs/2204.09312) [[Project]](https://dvl-tum.github.io/sin-nerf/) [[Code]](https://github.com/dvl-tum/sin-nerf)
+- **SinNeRF** (ECCV 2022) [[Paper]](https://arxiv.org/abs/2204.09312) [[Project]](https://dvl-tum.github.io/sin-nerf/) [[Code]](https://github.com/dvl-tum/sin-nerf)
 
 ---
 
@@ -78,13 +78,13 @@ As introduced in Section 2.2 of our survey, we synthesize the 3DGS editing proce
 - **GaussianEditor** (CVPR 2024) [[Paper]](https://arxiv.org/abs/2311.12775)
 - **GAvatar** (CVPR 2024) [[Paper]](https://arxiv.org/abs/2312.06732) [[Project]](https://ye-y.github.io/GAvatar/) [[Code]](https://github.com/ye-y/GAvatar)
 - **LangSplat** (CVPR 2024) [[Paper]](https://arxiv.org/abs/2403.13998)
-- **TEXT-TO-3D** (A survey, includes many models like DreamFusion, Magic3D etc.) [[Paper]](https://arxiv.org/abs/2309.11416)
+- **Text-to-3D Generation: A Survey** (includes many models like DreamFusion, Magic3D etc.) [[Paper]](https://arxiv.org/abs/2309.11416)
 - **GALA3D** (arXiv 2024) [[Paper]](https://arxiv.org/abs/2403.01873)
 - **GIR** (arXiv 2023) [[Paper]](https://arxiv.org/abs/2312.05133)
 
 #### **2.5. Temporal Change and Dynamic Scene Support**
 *This stage extends the model to handle time-varying events and motion.*
-- **Fast Dynamic 3D** (Efficient4D) (arXiv 2024) [[Paper]](https://arxiv.org/abs/2401.08742)
+- **Efficient4D** (arXiv 2024) [[Paper]](https://arxiv.org/abs/2401.08742)
 - **SC-GS** (arXiv 2024) [[Paper]](https://arxiv.org/abs/2403.01358)
 - **Align Your Gaussians** (CVPR 2024) [[Paper]](https://arxiv.org/abs/2312.02924)
 - **Human Gaussian Splatting** (arXiv 2023) [[Paper]](https://arxiv.org/abs/2311.10097) [[Project]](https://shunsukesaito.github.io/hugs/)
@@ -129,6 +129,6 @@ This is an active repository. If you have suggestions for adding new papers, dat
   title   = {Implicit vs. Explicit: A Comparative Survey on NeRF and 3DGS for Large-Scale Aerial Scene Editing},
   author  = {Gong, Rui and Zhang, Jiguang and Pang, Yujia and Wang, Yixuan and Zhang, Xiaopeng and Meng, Weiliang and Zhou, Peng},
   journal = {The Visual Computer},
-  year    = {2025},
+  year    = {2025}
   % Note: Full citation details will be updated upon publication.
 }
